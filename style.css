@@ -20,7 +20,7 @@ header {
 
 .left-side-menu {
     display: flex;
-    gap: 50px;
+    gap: 20px;
 
 }
 
@@ -30,7 +30,7 @@ header {
 
 nav ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 nav ul li a {
@@ -45,26 +45,10 @@ nav ul li a {
 }
 
 .icon-avatar img {
-    width: 60px;
-}
-
-.line {
-    height: 1px;
-    background-color: #ddd;
-    width: 90%;
-    align-self: center;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: cal(100vh - 85px);
-    gap: 100px;
+    width: 50px;
 }
 
 .left-side {
-    display: flex;
     flex-direction: column;
     width: 100%;
 }
