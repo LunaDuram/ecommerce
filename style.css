@@ -21,7 +21,7 @@ header{
 
 }
 .logo img{
-    width: 65px;
+    width: 20px;
 }
 nav ul li{
     display: inline-block;
@@ -47,7 +47,6 @@ nav ul li a{
 }
 .container{
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 100%;
     height: cal(100vh - 85px);
@@ -62,7 +61,7 @@ nav ul li a{
     align-self: flex-end;
 }
 .select-image{
-    max-width: 400px;
+    max-width: 200px;
 }
 .select-image img{
     width: 100%;
@@ -71,7 +70,7 @@ nav ul li a{
 .thumbnails{
     display: flex;
     justify-content: space-evenly;
-    width:400px;
+    width:200px;
     gap: 10px;
 }
 .thumbnail img{
@@ -84,17 +83,17 @@ nav ul li a{
     flex-direction: column;
 }
 .content{
-    max-width: 400px;
+    max-width: 300px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 }
 .right-side h6{
     color: hsl(0, 97%, 51%);
 }
 .right-side p{
     color: hsl(219, 9%, 45%);
-    font-size: 14px;
+    font-size: 5px;
 }
 .prices{
     display: flex;
@@ -117,7 +116,7 @@ nav ul li a{
     align-items: center;
     gap: 20px;
     background-color: #FFEAFC;
-    padding: 10px 20px;
+    padding: 5px 10px;
     width: fit-content;
     border-radius: 10px;
 }
@@ -133,7 +132,7 @@ nav ul li a{
     text-decoration: none;
     color: #fff;
     background-color: #FFEAFC;
-    padding: 10px 35px;
+    padding: 5px 10px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -145,3 +144,26 @@ nav ul li a{
 .button img{
     width: 50px;
 }
+.texto{
+    font-size: 100%;
+ }
+ .bm-5{
+    margin-bottom: 5px;
+ }
+ .photo{
+    width: 100%;
+}
+.container-about{
+    display: flex;
+  }
+  @media(max-width:500px){
+    .container-about{
+    flex-direction: column;
+    }
+  }
+  .container-about> div{
+    max-width: 500px;
+  }
+  
+
+    
