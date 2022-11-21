@@ -27,7 +27,7 @@
             </div>
 
             <div class="right-side-menu">
-                <img src="images/icon-cart.png">
+                <img class="cart" src="images/icon-cart.png">
                 <a class="icon-avatar"><img src="images/avatar.png"></a>
             </div>
         </div>
@@ -53,8 +53,8 @@
 
                 <div class="right-side">
                     <div class="content">
-                        <h6>MAKEUP COMPANY</h6>
-                        <H1>Blush Limited Edtion</H1>
+                        <h2>MAKEUP COMPANY</h2>
+                        <h1>Blush Limited Edtion</h1>
                         <p>vfjdkgjdfb</p>
                         <div class="prices">
                             <span class="price">$40.00</span>
@@ -62,11 +62,11 @@
                         </div>
                         <div class="options">
                              <div class="amount">
-                                  <div class="minus">
+                                  <div class="minus" onclick="diminuir()">
                                        <img src="images/minus.png">
                                   </div>
-                                  <span>0</span>
-                                  <div class="plus">
+                                  <span class="mudar">0</span>
+                                  <div class="plus" onclick="adicionar()">
                                     <img src="images/adicao.png">
                                   </div>
                              </div>
@@ -77,5 +77,6 @@
             </div>
         </section>
     </main>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>

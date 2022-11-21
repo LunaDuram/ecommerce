@@ -10,6 +10,9 @@ header {
     flex-direction: column;
 }
 
+h2 {
+    font-size: small;   
+}
 .menu {
     display: flex;
     justify-content: space-between;
@@ -25,7 +28,7 @@ header {
 }
 
 .logo img {
-    width: 20px;
+    width: 40px;
 }
 
 nav ul li {
@@ -41,7 +44,10 @@ nav ul li a {
 .right-side-menu {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 5px;
+}
+.cart{
+    width: 45px;
 }
 
 .icon-avatar img {
